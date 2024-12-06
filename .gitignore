@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 DDNS.config
+*.config
 # C extensions
 *.so
 
