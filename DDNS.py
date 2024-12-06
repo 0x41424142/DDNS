@@ -16,7 +16,7 @@ config.read(path.join(path.dirname(__file__), "DDNS.config"))
 config = config["DEFAULT"]
 
 # first, get our current IP address
-currentIP = requests.get("https://ysap.sh/ip").content.decode("utf-8")
+currentIP = requests.get("https://ysap.sh/ip").text.replace('\n','')
 if config["verbose"]:
     print("Current IP: " + currentIP)
 
