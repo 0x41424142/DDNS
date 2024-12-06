@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ddns"
+version = "0.1.0"
+description = ""
+authors = ["Jake Lindsay <jake@jakelindsay.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+requests = "^2.32.3"
+urllib3 = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
